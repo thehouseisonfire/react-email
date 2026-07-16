@@ -1,3 +1,5 @@
+// add a small shadow to the container=, and make the text slightly transparent (just a bit to emphasize the main button) 
+
 import {
   Body,
   Container,
@@ -57,7 +59,7 @@ export const DifrisulChangeEmail = ({
             Se você não solicitou esta alteração, por favor, contate nossa equipe de suporte imediatamente.
           </Text>
           <Text style={smallText}>
-            Este link expirará em 24 horas por motivos de segurança.
+            Este link expirará em 1 hora por motivos de segurança.
           </Text>
           <Text style={text}>
             Agradecemos sua preferência,<br />Equipe Difrisul
@@ -77,7 +79,7 @@ export const DifrisulChangeEmail = ({
               Facebook
             </Link>
             {' | '}
-            <Link href="https://api.whatsapp.com/send?phone=554933222919" style={socialLink}>
+            <Link href={`https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_COMMERCIAL_PHONE_FULL}`} style={socialLink}>
               Whatsapp
             </Link>
           </Text>

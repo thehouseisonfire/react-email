@@ -53,7 +53,7 @@ export const DifrisulResetPassword = ({
             com nosso suporte caso tenha dúvidas.
           </Text>
           <Text style={smallText}>
-            Este link expira em 24 horas.
+            Este link expira em 1 hora, por motivos de segurança.
           </Text>
           <Text style={text}>
             Atenciosamente,<br />Equipe Difrisul
@@ -73,7 +73,7 @@ export const DifrisulResetPassword = ({
               Facebook
             </Link>
             {' | '}
-            <Link href="https://api.whatsapp.com/send?phone=554933222919" style={socialLink}>
+            <Link href={`https://api.whatsapp.com/send?phone=${process.env.NEXT_PUBLIC_COMMERCIAL_PHONE_FULL}`} style={socialLink}>
               Whatsapp
             </Link>
           </Text>
