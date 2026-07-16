@@ -4,9 +4,19 @@
     "jsx": "react-jsx",
     "skipLibCheck": true,
     "strict": true,
+    "types": [
+      "node",
+      "bun"
+    ],
     "noEmit": true,
     "strictNullChecks": true
   },
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", ".react-email"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    ".react-email"
+  ]
 }
