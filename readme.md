@@ -24,4 +24,9 @@ Open [localhost:3000](http://localhost:3000) with your browser to see the result
 
 ## License
 
-MIT License
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT license ([LICENSE-MIT](LICENSE-MIT))
+
+at your option.

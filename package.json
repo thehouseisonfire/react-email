@@ -2,6 +2,7 @@
   "name": "react-email-starter",
   "version": "1.0.5",
   "private": true,
+  "license": "MIT OR Apache-2.0",
   "scripts": {
     "build": "email build",
     "dev": "email dev",
